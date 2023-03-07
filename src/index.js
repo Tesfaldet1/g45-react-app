@@ -7,6 +7,7 @@ import Table from "./ex4-table/Table";
 import StyleExample from "./ex5-css/StyleExample";
 
 import "bootstrap/dist/css/bootstrap.css";
+import NameList from "./ex6-var-function/NameList";
 
 const greetingMessage = <div>hello react!</div>;
 
@@ -21,4 +22,10 @@ console.log("<<<< hello java");
 //ReactDOM.render(menu, document.getElementById("root")); old version
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<StyleExample />);
+
+const names = [
+  "Fiory Weldemichea",
+  "Tesfaldet Weldemicheal",
+  "Sisay Weldemicheal",
+];
+root.render(<NameList names={names} />);
