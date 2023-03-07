@@ -4,6 +4,9 @@ import AppClass from "./ex1-class/AppClass";
 import AppFunction from "./ex2-function/AppFunction";
 import AppArrowFunction from "./ex3-arrow-function/AppArrowFunction";
 import Table from "./ex4-table/Table";
+import StyleExample from "./ex5-css/StyleExample";
+
+import "bootstrap/dist/css/bootstrap.css";
 
 const greetingMessage = <div>hello react!</div>;
 
@@ -18,4 +21,4 @@ console.log("<<<< hello java");
 //ReactDOM.render(menu, document.getElementById("root")); old version
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Table />);
+root.render(<StyleExample />);

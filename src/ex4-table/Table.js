@@ -14,8 +14,12 @@ const TableHeader = () => {
 const TableAction = () => {
   return (
     <>
-      <button type="button">Delete</button>
-      <button type="button">Edit</button>
+      <button type="button" className="btn btn-danger">
+        Delete
+      </button>
+      <button type="button" className="btn btn-warning">
+        Edit
+      </button>
     </>
   );
 };
@@ -52,7 +56,7 @@ const TableBody = () => {
 const Table = () => {
   return (
     <div className="Tset">
-      <table border="1">
+      <table className="table table-dark table-striped">
         <TableHeader />
         <TableBody />
       </table>
