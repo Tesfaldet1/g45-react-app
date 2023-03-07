@@ -2,6 +2,7 @@
 import ReactDOM from "react-dom/client";
 import AppClass from "./ex1-class/AppClass";
 import AppFunction from "./ex2-function/AppFunction";
+import AppArrowFunction from "./ex3-arrow-function/AppArrowFunction";
 
 const greetingMessage = <div>hello react!</div>;
 
@@ -16,4 +17,4 @@ console.log("<<<< hello java");
 //ReactDOM.render(menu, document.getElementById("root")); old version
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppFunction />);
+root.render(<AppArrowFunction />);
