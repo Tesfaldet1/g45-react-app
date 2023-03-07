@@ -2,8 +2,9 @@ import React, { Component } from "react";
 
 /**
  * @author Tesfaldet Weldemicheal
- * @class  HeaderClas
+ * @class  HeaderClass
  **/
+//rcc
 
 class HeaderClass extends Component {
   render() {
