@@ -5,9 +5,14 @@ import AppFunction from "./ex2-function/AppFunction";
 import AppArrowFunction from "./ex3-arrow-function/AppArrowFunction";
 import Table from "./ex4-table/Table";
 import StyleExample from "./ex5-css/StyleExample";
+import Menu from "./ex7-props/Menu";
 
 import "bootstrap/dist/css/bootstrap.css";
 import NameList from "./ex6-var-function/NameList";
+import App from "./ex7-props/App";
+import Car from "./ex8-state/Car";
+import ProductList from "./ex8-state/ProductList";
+import Counter from "./ex9-event/Counter";
 
 const greetingMessage = <div>hello react!</div>;
 
@@ -28,4 +33,4 @@ const names = [
   "Tesfaldet Weldemicheal",
   "Sisay Weldemicheal",
 ];
-root.render(<NameList names={names} />);
+root.render(<Counter />);
