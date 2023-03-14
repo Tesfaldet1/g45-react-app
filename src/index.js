@@ -13,6 +13,7 @@ import App from "./ex7-props/App";
 import Car from "./ex8-state/Car";
 import ProductList from "./ex8-state/ProductList";
 import Counter from "./ex9-event/Counter";
+import Person from "./ex9-event/Porson";
 
 const greetingMessage = <div>hello react!</div>;
 
@@ -33,4 +34,4 @@ const names = [
   "Tesfaldet Weldemicheal",
   "Sisay Weldemicheal",
 ];
-root.render(<Counter />);
+root.render(<Person />);
