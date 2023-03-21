@@ -14,6 +14,7 @@ import Car from "./ex8-state/Car";
 import ProductList from "./ex8-state/ProductList";
 import Counter from "./ex9-event/Counter";
 import Person from "./ex9-event/Porson";
+import ComponentLifecycleDemo from "./ex10-component-lifecycle/ComponentLifecycleDemo";
 
 const greetingMessage = <div>hello react!</div>;
 
@@ -34,4 +35,4 @@ const names = [
   "Tesfaldet Weldemicheal",
   "Sisay Weldemicheal",
 ];
-root.render(<Person />);
+root.render(<ComponentLifecycleDemo />);
