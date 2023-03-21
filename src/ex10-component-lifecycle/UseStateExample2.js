@@ -1,13 +1,15 @@
 import React, { useState } from "react";
+import Data from "./Data";
 
 const UseStateExample2 = () => {
   const initialstate = { firstName: "", lastName: "" };
-
   const [showCard, setShowCard] = useState(false);
-  const [errorForm, setErrorForm] = useState(initialstate);
+
   const [person, setPerson] = useState(initialstate);
 
   const Form = () => {
+    const [errorForm, setErrorForm] = useState(initialstate);
+
     const onInputChange = (e, name) => {
       const val = e.target.value;
       console.log("Name", name);
@@ -85,24 +87,14 @@ const UseStateExample2 = () => {
     );
   };
 
-  const Data = () => {
-    return (
-      <div>
-        {showCard && (
-          <div className="card">
-            <div className="card-header bg-info text-white"></div>
-            <div className="card-body">{person.firstName}</div>
-            <div className="card-footer">{person.lastName}</div>
-          </div>
-        )}
-      </div>
-    );
-  };
-
   return (
     <div className="container mt-5">
       <Form />
-      <Data showCard={showCard} />
+      <Data
+        showCard={showCard}
+        firstName={person.firstName}
+        lastName={person.lastName}
+      />
     </div>
   );
 };

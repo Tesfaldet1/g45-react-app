@@ -17,6 +17,7 @@ import Person from "./ex9-event/Porson";
 import ComponentLifecycleDemo from "./ex10-component-lifecycle/ComponentLifecycleDemo";
 import UseStateExample from "./ex10-component-lifecycle/UseStateExample";
 import UseStateExample2 from "./ex10-component-lifecycle/UseStateExample2";
+import UseEffectExample from "./ex10-component-lifecycle/UseEffectExample";
 
 const greetingMessage = <div>hello react!</div>;
 
@@ -37,4 +38,4 @@ const names = [
   "Tesfaldet Weldemicheal",
   "Sisay Weldemicheal",
 ];
-root.render(<UseStateExample2 />);
+root.render(<UseEffectExample />);
