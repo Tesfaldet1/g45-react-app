@@ -16,6 +16,7 @@ import Counter from "./ex9-event/Counter";
 import Person from "./ex9-event/Porson";
 import ComponentLifecycleDemo from "./ex10-component-lifecycle/ComponentLifecycleDemo";
 import UseStateExample from "./ex10-component-lifecycle/UseStateExample";
+import UseStateExample2 from "./ex10-component-lifecycle/UseStateExample2";
 
 const greetingMessage = <div>hello react!</div>;
 
@@ -36,4 +37,4 @@ const names = [
   "Tesfaldet Weldemicheal",
   "Sisay Weldemicheal",
 ];
-root.render(<UseStateExample />);
+root.render(<UseStateExample2 />);
