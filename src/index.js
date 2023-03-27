@@ -19,6 +19,7 @@ import UseStateExample from "./ex10-component-lifecycle/UseStateExample";
 import UseStateExample2 from "./ex10-component-lifecycle/UseStateExample2";
 import UseEffectExample from "./ex10-component-lifecycle/UseEffectExample";
 import HookFormDemo from "./ex10-component-lifecycle/HookFormDemo";
+import AxiosDemo from "./ex11-axios/AxiosDemo";
 
 const greetingMessage = <div>hello react!</div>;
 
@@ -39,4 +40,4 @@ const names = [
   "Tesfaldet Weldemicheal",
   "Sisay Weldemicheal",
 ];
-root.render(<HookFormDemo />);
+root.render(<AxiosDemo />);
